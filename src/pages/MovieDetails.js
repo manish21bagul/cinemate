@@ -9,7 +9,7 @@ export const MovieDetails = () => {
   const image = movie.poster_path
     ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
     : Backup;
-  console.log(params.id);
+  // console.log(params.id);
   useEffect(() => {
     async function fetchMovie() {
       const response = await fetch(
